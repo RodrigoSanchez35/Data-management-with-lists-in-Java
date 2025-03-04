@@ -24,9 +24,9 @@ This project is a Java application designed to manage ticket sales for a theater
 
 Compile the code:
 
-javac src/Exp3_S7_Grupo25.java
+javac src/solution.java
 
 
 Run the program:
 
-java src.Exp3_S7_Grupo25
+java src.solution
