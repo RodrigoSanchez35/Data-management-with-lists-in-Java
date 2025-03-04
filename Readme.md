@@ -23,10 +23,10 @@ This project is a Java application designed to manage ticket sales for a theater
 
 
 Compile the code:
-
+ ```bash
 javac src/solution.java
 
 
 Run the program:
-
+ ```bash
 java src.solution
