@@ -18,15 +18,17 @@ This project is a Java application designed to manage ticket sales for a theater
 ## Installation & Execution
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/data-management-java.git
-   cd data-management-java
+   git clone https://github.com/your-username/Data-management-with-lists-in-Java.git
+   cd Data-management-with-lists-in-Java
 
 
-Compile the code:
+
+##Compile the code:
  ```bash
 javac src/solution.java
 
 
-Run the program:
+
+##Run the program:
  ```bash
 java src.solution
