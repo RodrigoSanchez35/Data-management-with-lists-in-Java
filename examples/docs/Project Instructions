@@ -1,0 +1,112 @@
+# Project Instructions: Data Management with Lists in Java
+
+## Problem Statement
+A theater wants to implement a **ticket sales management system** that allows customers to purchase tickets, apply discounts, and track total revenue. The system should efficiently manage the seating availability and display a summary of sales transactions.
+
+## Requirements
+1. **Ticket Sales System**
+   - The system should allow users to purchase tickets for different seating categories:
+     - **VIP ($5000)**
+     - **Platea ($4000)**
+     - **Balcony ($3000)**
+   - Users can apply a discount if they meet one of the following conditions:
+     - **Students:** 10% discount.
+     - **Senior Citizens:** 15% discount.
+
+2. **Sales Summary**
+   - The program should store each sale in a **list** (`ArrayList`) and display a summary of all transactions.
+
+3. **Generate Receipt**
+   - The system should print a **detailed receipt** of all purchased tickets.
+
+4. **Calculate Total Revenue**
+   - The system should sum up all sales and display the total revenue.
+
+5. **Seating Capacity Management**
+   - The theater has a maximum capacity of **100 seats**.
+   - The system should prevent ticket sales when no seats are available.
+
+## Functionalities
+1. **Display Main Menu**
+   - The system should present a menu with the following options:
+     ```
+     === Teatro Moro ===
+     1. Ticket Sales
+     2. View Sales Summary
+     3. Generate Receipt
+     4. Calculate Total Revenue
+     5. Exit
+     ```
+   - The user should be able to select an option by entering a number.
+
+2. **Handle Ticket Sales**
+   - The user selects a seating type.
+   - The system applies the appropriate discount (if applicable).
+   - The ticket price is calculated and stored in the sales list.
+   - The system updates the number of **available seats**.
+
+3. **View Sales Summary**
+   - The system displays all recorded sales.
+
+4. **Generate Receipt**
+   - The program prints a **formatted receipt** with all sales details.
+
+5. **Calculate Total Revenue**
+   - The system calculates and displays the **total earnings** from ticket sales.
+
+## Example Interaction
+=== Teatro Moro ===
+
+Ticket Sales
+View Sales Summary
+Generate Receipt
+Calculate Total Revenue
+Exit Select an option: 1
+=== Ticket Sales === Select seating (VIP, Platea, Balcony): VIP Are you a student? (Yes / No): Yes Seating: VIP Base Price: $5000 Discount Applied: 10% Final Price: $4500 Ticket sold! Enjoy the show in VIP seating.
+
+
+## Technical Details
+- **Programming Language:** Java
+- **Data Structure Used:** `ArrayList` (to store sales)
+- **User Input Handling:** `Scanner`
+- **Discount Logic:** Applied using conditionals (`if-else`)
+- **Loop Used for Menu:** `while-loop`
+- **Seat Availability Check:** Controlled by decrementing a variable
+
+## Expected Output
+If the user selects **option 4 (Calculate Total Revenue)** after multiple sales, an example output could be:
+=== Total Revenue === Total Revenue: $14500
+
+
+## Assumptions & Limitations
+- The system does not store data permanently (resets when restarted).
+- The user is expected to enter valid inputs (error handling is minimal).
+- The program assumes that **students and senior citizens cannot combine discounts**.
+
+## How to Run the Project
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Data-management-with-lists-in-Java.git
+   cd Data-management-with-lists-in-Java
+Compile the Java program:
+```bash
+javac src/Exp3_S7_Grupo25.java
+Run the program:
+```bash
+java src.Exp3_S7_Grupo25
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Notes
+This project was created as part of a university coursework on data structures in Java. The focus is on implementing list-based storage and logical ticket management in an interactive menu-based program.
+
+
+
+---
+
+✅ **Now your project has a complete professional documentation set!**  
+- **README.md** (General project overview)  
+- **Docs (Technical Documentation)**  
+- **Docs (Project Instructions - THIS FILE)**  
+
+This structure ensures that **anyone** can understand, execute, and contribute to your project. 🚀 Let me know if you need modifications or additional refinements!
